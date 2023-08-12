@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Rajdhani:wght@300&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    overflow-x: hidden;
+}
+body {
+  background-color: #d8d6ca;
+}
+p {
+    font-size: larger;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.box {
+    max-width: 1240px;
+    text-align: center;
+    margin: auto;
+}
+.f-icon {
+    width: 30px;
+    transform: rotate(42deg);
+    margin-bottom: -0.5em;
+}
+h1 {
+    padding-top: 50px;
+}
+.f-box {
+    display: flex;
+    justify-content: center;
+}
+.f-box > img {
+    margin-top: 1rem;
+    width: 30px;
+}
+.f-box > img:nth-child(1) {
+    transform: scaleX(-1);
+}
+#pad {
+    padding-bottom: 50px;
+}
+.flex-cont {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
